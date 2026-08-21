@@ -1,0 +1,918 @@
+{
+  "categories": [
+    {
+      "id": "tech-innovation",
+      "name": "Technology & Innovation",
+      "theme": "#2b6cff"
+    },
+    {
+      "id": "health-education-public",
+      "name": "Health, Education & Public Good",
+      "theme": "#1fa97a"
+    },
+    {
+      "id": "commerce-retail-hospitality",
+      "name": "Commerce, Retail & Hospitality",
+      "theme": "#e6a119"
+    },
+    {
+      "id": "industrial-realestate-logistics",
+      "name": "Industrial, Real Estate & Logistics",
+      "theme": "#6b5bd6"
+    },
+    {
+      "id": "financial-professional",
+      "name": "Financial & Professional Services",
+      "theme": "#146c94"
+    },
+    {
+      "id": "creative-media-emerging",
+      "name": "Creative, Media & Emerging",
+      "theme": "#d1477a"
+    }
+  ],
+  "industries": [
+    {
+      "id": "information-technology",
+      "cat": "tech-innovation",
+      "icon": "💻",
+      "name": "Information Technology",
+      "one": "Startups and enterprises building software, apps and platforms — from MVP to scale.",
+      "intro": "IT companies still outsource the work outside their core focus — a second product line, marketing, HR, or finance while the core team ships code. We plug into whichever gap is slowing you down.",
+      "sectors": [
+        "it-infrastructure",
+        "hr-services",
+        "digital-marketing",
+        "finance-audit",
+        "career-development"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every information technology operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep information technology work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in information technology. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in information technology as much as anywhere else. We run the social, SEO, ads and content that get the right information technology audience finding and choosing you."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including information technology businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        },
+        {
+          "sectorId": "career-development",
+          "text": "We help build a pipeline of information technology-ready talent through training, mentoring and placement — useful whether you're hiring or building a career in the space."
+        }
+      ]
+    },
+    {
+      "id": "startups-new-ventures",
+      "cat": "tech-innovation",
+      "icon": "🚀",
+      "name": "Startups & New Ventures",
+      "one": "Founders needing a full-stack partner across tech, marketing, HR and finance from day one.",
+      "intro": "Early-stage teams rarely have the headcount to hire a specialist for every function. We act as your extended team across build, brand and back office, so you can stay focused on product-market fit.",
+      "sectors": [
+        "it-infrastructure",
+        "digital-marketing",
+        "finance-audit",
+        "hr-services",
+        "career-development"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every startups & new ventures operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep startups & new ventures work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in startups & new ventures as much as anywhere else. We run the social, SEO, ads and content that get the right startups & new ventures audience finding and choosing you."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including startups & new ventures businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in startups & new ventures. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        },
+        {
+          "sectorId": "career-development",
+          "text": "We help build a pipeline of startups & new ventures-ready talent through training, mentoring and placement — useful whether you're hiring or building a career in the space."
+        }
+      ]
+    },
+    {
+      "id": "saas-software-products",
+      "cat": "tech-innovation",
+      "icon": "🧩",
+      "name": "SaaS & Software Products",
+      "one": "Product teams needing engineering capacity, QA, and growth marketing without the hiring overhead.",
+      "intro": "Whether you need extra engineering bandwidth for a release, a rebuilt onboarding flow, or a demand-gen campaign, our IT and marketing teams can flex around your product roadmap.",
+      "sectors": [
+        "it-infrastructure",
+        "digital-marketing",
+        "hr-services",
+        "finance-audit"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every saas & software products operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep saas & software products work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in saas & software products as much as anywhere else. We run the social, SEO, ads and content that get the right saas & software products audience finding and choosing you."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in saas & software products. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including saas & software products businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        }
+      ]
+    },
+    {
+      "id": "telecommunications",
+      "cat": "tech-innovation",
+      "icon": "📡",
+      "name": "Telecommunications",
+      "one": "Network operators and service providers needing infrastructure, support desks and field operations.",
+      "intro": "Telecom operations need both back-end systems and front-line support running reliably. We support the software layer, customer-facing support, and workforce behind it.",
+      "sectors": [
+        "it-infrastructure",
+        "sales-support",
+        "hr-services",
+        "digital-marketing"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every telecommunications operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep telecommunications work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "sales-support",
+          "text": "Telecommunications runs on equipment and infrastructure as much as people. We supply, install and maintain the hardware, networks and support desk behind the scenes."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in telecommunications. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in telecommunications as much as anywhere else. We run the social, SEO, ads and content that get the right telecommunications audience finding and choosing you."
+        }
+      ]
+    },
+    {
+      "id": "healthcare-wellness",
+      "cat": "health-education-public",
+      "icon": "🏥",
+      "name": "Healthcare & Wellness",
+      "one": "Clinics and hospitals — from appointment systems and websites to hardware, staff training and finance support.",
+      "intro": "We're not a hospital — but a hospital or clinic still needs a booking website, trained front-desk staff, marketing that builds patient trust, and clean books. That's exactly where AvenMinds steps in, sector by sector, around your care team.",
+      "sectors": [
+        "it-infrastructure",
+        "edtech",
+        "digital-marketing",
+        "hr-services",
+        "finance-audit",
+        "sales-support"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every healthcare & wellness operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep healthcare & wellness work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "edtech",
+          "text": "Your people are the real asset in healthcare & wellness. Our EdTech division can design structured training, certification or onboarding programs to keep healthcare & wellness teams sharp and job-ready."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in healthcare & wellness as much as anywhere else. We run the social, SEO, ads and content that get the right healthcare & wellness audience finding and choosing you."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in healthcare & wellness. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including healthcare & wellness businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        },
+        {
+          "sectorId": "sales-support",
+          "text": "Healthcare & Wellness runs on equipment and infrastructure as much as people. We supply, install and maintain the hardware, networks and support desk behind the scenes."
+        }
+      ]
+    },
+    {
+      "id": "education-edtech",
+      "cat": "health-education-public",
+      "icon": "🎓",
+      "name": "Education & EdTech Institutions",
+      "one": "Schools, colleges and coaching institutes needing enrolment systems, digital presence and faculty training.",
+      "intro": "Institutions need more than a classroom — a website that converts enquiries, marketing that reaches parents and students, and finance systems that keep fees and payroll straight.",
+      "sectors": [
+        "it-infrastructure",
+        "digital-marketing",
+        "finance-audit",
+        "hr-services",
+        "career-development"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every education & edtech institutions operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep education & edtech institutions work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in education & edtech institutions as much as anywhere else. We run the social, SEO, ads and content that get the right education & edtech institutions audience finding and choosing you."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including education & edtech institutions businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in education & edtech institutions. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        },
+        {
+          "sectorId": "career-development",
+          "text": "We help build a pipeline of education & edtech institutions-ready talent through training, mentoring and placement — useful whether you're hiring or building a career in the space."
+        }
+      ]
+    },
+    {
+      "id": "non-profit-ngo",
+      "cat": "health-education-public",
+      "icon": "🤝",
+      "name": "Non-Profit & NGOs",
+      "one": "Community organisations needing outreach, media and volunteer coordination on tight budgets.",
+      "intro": "Mission-driven teams need donor-facing content, a functioning website, and lean back-office support — without the overhead of hiring a full department for each. We help stretch limited resources further.",
+      "sectors": [
+        "digital-marketing",
+        "media-production",
+        "it-infrastructure",
+        "hr-services",
+        "finance-audit"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in non-profit & ngos as much as anywhere else. We run the social, SEO, ads and content that get the right non-profit & ngos audience finding and choosing you."
+        },
+        {
+          "sectorId": "media-production",
+          "text": "First impressions matter in non-profit & ngos too. Our production team handles the photography, video and brand content that make a non-profit & ngos business look as good as it performs."
+        },
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every non-profit & ngos operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep non-profit & ngos work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in non-profit & ngos. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including non-profit & ngos businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        }
+      ]
+    },
+    {
+      "id": "government-public-sector",
+      "cat": "health-education-public",
+      "icon": "🏛️",
+      "name": "Government & Public Sector",
+      "one": "Public initiatives requiring documentation, training and digital infrastructure.",
+      "intro": "Public programs run on documentation, training rollouts and citizen-facing systems. We support the technology, training delivery and compliance paperwork that public initiatives depend on.",
+      "sectors": [
+        "it-infrastructure",
+        "edtech",
+        "hr-services",
+        "finance-audit"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every government & public sector operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep government & public sector work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "edtech",
+          "text": "Your people are the real asset in government & public sector. Our EdTech division can design structured training, certification or onboarding programs to keep government & public sector teams sharp and job-ready."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in government & public sector. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including government & public sector businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        }
+      ]
+    },
+    {
+      "id": "retail-ecommerce",
+      "cat": "commerce-retail-hospitality",
+      "icon": "🛍️",
+      "name": "Retail & E-commerce",
+      "one": "D2C brands and local retailers scaling online storefronts, ads and fulfilment.",
+      "intro": "From your first online store to a full performance-marketing engine, we cover the storefront build, the ads that drive traffic, and the logistics that get orders out the door.",
+      "sectors": [
+        "it-infrastructure",
+        "digital-marketing",
+        "media-production",
+        "logistics",
+        "finance-audit"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every retail & e-commerce operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep retail & e-commerce work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in retail & e-commerce as much as anywhere else. We run the social, SEO, ads and content that get the right retail & e-commerce audience finding and choosing you."
+        },
+        {
+          "sectorId": "media-production",
+          "text": "First impressions matter in retail & e-commerce too. Our production team handles the photography, video and brand content that make a retail & e-commerce business look as good as it performs."
+        },
+        {
+          "sectorId": "logistics",
+          "text": "Materials, supplies and inventory need to move reliably in retail & e-commerce operations. We coordinate the freight, warehousing and distribution behind that."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including retail & e-commerce businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        }
+      ]
+    },
+    {
+      "id": "hospitality-food-beverage",
+      "cat": "commerce-retail-hospitality",
+      "icon": "🍽️",
+      "name": "Hospitality, Food & Beverage",
+      "one": "Restaurants, cloud kitchens and hospitality brands growing local visibility.",
+      "intro": "Local discovery, a menu that looks as good as the food, and staff who show up trained — that's the difference between a quiet venue and a full one. We support all three.",
+      "sectors": [
+        "digital-marketing",
+        "media-production",
+        "hr-services",
+        "it-infrastructure",
+        "finance-audit"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in hospitality, food & beverage as much as anywhere else. We run the social, SEO, ads and content that get the right hospitality, food & beverage audience finding and choosing you."
+        },
+        {
+          "sectorId": "media-production",
+          "text": "First impressions matter in hospitality, food & beverage too. Our production team handles the photography, video and brand content that make a hospitality, food & beverage business look as good as it performs."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in hospitality, food & beverage. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        },
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every hospitality, food & beverage operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep hospitality, food & beverage work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including hospitality, food & beverage businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        }
+      ]
+    },
+    {
+      "id": "fashion-lifestyle",
+      "cat": "commerce-retail-hospitality",
+      "icon": "👗",
+      "name": "Fashion & Lifestyle",
+      "one": "Designers, boutiques and lifestyle brands needing shoots, branding and e-commerce.",
+      "intro": "Fashion sells on how it looks and where it's seen. Our production team shoots the campaign, our marketers place it in front of the right audience, and our IT team builds the store behind it.",
+      "sectors": [
+        "media-production",
+        "digital-marketing",
+        "it-infrastructure",
+        "logistics"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "media-production",
+          "text": "First impressions matter in fashion & lifestyle too. Our production team handles the photography, video and brand content that make a fashion & lifestyle business look as good as it performs."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in fashion & lifestyle as much as anywhere else. We run the social, SEO, ads and content that get the right fashion & lifestyle audience finding and choosing you."
+        },
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every fashion & lifestyle operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep fashion & lifestyle work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "logistics",
+          "text": "Materials, supplies and inventory need to move reliably in fashion & lifestyle operations. We coordinate the freight, warehousing and distribution behind that."
+        }
+      ]
+    },
+    {
+      "id": "beauty-personal-care",
+      "cat": "commerce-retail-hospitality",
+      "icon": "💇",
+      "name": "Beauty & Personal Care",
+      "one": "Salons, spas and personal-care brands needing bookings, branding and local reach.",
+      "intro": "Appointment-driven businesses live or die on local visibility and easy booking. We build the booking flow, run the local campaigns, and keep the books balanced behind the scenes.",
+      "sectors": [
+        "it-infrastructure",
+        "digital-marketing",
+        "media-production",
+        "finance-audit"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every beauty & personal care operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep beauty & personal care work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in beauty & personal care as much as anywhere else. We run the social, SEO, ads and content that get the right beauty & personal care audience finding and choosing you."
+        },
+        {
+          "sectorId": "media-production",
+          "text": "First impressions matter in beauty & personal care too. Our production team handles the photography, video and brand content that make a beauty & personal care business look as good as it performs."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including beauty & personal care businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        }
+      ]
+    },
+    {
+      "id": "automotive-mobility",
+      "cat": "commerce-retail-hospitality",
+      "icon": "🚗",
+      "name": "Automotive & Mobility",
+      "one": "Dealerships, service centres and mobility startups needing systems and marketing that move.",
+      "intro": "Whether it's a showroom booking system, a service-centre CRM, or launch marketing for a mobility startup, we support the tech and growth layer around the vehicles.",
+      "sectors": [
+        "it-infrastructure",
+        "digital-marketing",
+        "sales-support",
+        "hr-services"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every automotive & mobility operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep automotive & mobility work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in automotive & mobility as much as anywhere else. We run the social, SEO, ads and content that get the right automotive & mobility audience finding and choosing you."
+        },
+        {
+          "sectorId": "sales-support",
+          "text": "Automotive & Mobility runs on equipment and infrastructure as much as people. We supply, install and maintain the hardware, networks and support desk behind the scenes."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in automotive & mobility. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        }
+      ]
+    },
+    {
+      "id": "real-estate-construction",
+      "cat": "industrial-realestate-logistics",
+      "icon": "🏗️",
+      "name": "Real Estate & Construction",
+      "one": "Builders, architects and property investors managing land, design and delivery.",
+      "intro": "Beyond the build itself, real estate businesses need lead-generating marketing, a professional web presence, and finance support to keep projects on budget. We support the whole business around the build.",
+      "sectors": [
+        "real-estate",
+        "digital-marketing",
+        "it-infrastructure",
+        "finance-audit"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "real-estate",
+          "text": "Planning a new facility, outlet or workspace for your real estate & construction business? Our real estate and construction team can design, build and deliver it end-to-end."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in real estate & construction as much as anywhere else. We run the social, SEO, ads and content that get the right real estate & construction audience finding and choosing you."
+        },
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every real estate & construction operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep real estate & construction work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including real estate & construction businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        }
+      ]
+    },
+    {
+      "id": "manufacturing-industrial",
+      "cat": "industrial-realestate-logistics",
+      "icon": "🏭",
+      "name": "Manufacturing & Industrial",
+      "one": "Factories and industrial units digitising operations and workforce management.",
+      "intro": "Industrial units are digitising fast — from ERP systems to workforce management. We support the software layer, hiring, and compliance so the factory floor isn't slowed down by back-office gaps.",
+      "sectors": [
+        "it-infrastructure",
+        "hr-services",
+        "finance-audit",
+        "logistics",
+        "sales-support"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every manufacturing & industrial operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep manufacturing & industrial work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in manufacturing & industrial. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including manufacturing & industrial businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        },
+        {
+          "sectorId": "logistics",
+          "text": "Materials, supplies and inventory need to move reliably in manufacturing & industrial operations. We coordinate the freight, warehousing and distribution behind that."
+        },
+        {
+          "sectorId": "sales-support",
+          "text": "Manufacturing & Industrial runs on equipment and infrastructure as much as people. We supply, install and maintain the hardware, networks and support desk behind the scenes."
+        }
+      ]
+    },
+    {
+      "id": "logistics-supply-chain",
+      "cat": "industrial-realestate-logistics",
+      "icon": "🚚",
+      "name": "Logistics & Supply Chain",
+      "one": "Import/export businesses and distributors coordinating freight and warehousing.",
+      "intro": "On top of freight and warehousing itself, logistics businesses need tracking systems, customer-facing dashboards and finance support — all of which we can build and run alongside the physical operation.",
+      "sectors": [
+        "logistics",
+        "it-infrastructure",
+        "finance-audit",
+        "hr-services"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "logistics",
+          "text": "Materials, supplies and inventory need to move reliably in logistics & supply chain operations. We coordinate the freight, warehousing and distribution behind that."
+        },
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every logistics & supply chain operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep logistics & supply chain work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including logistics & supply chain businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in logistics & supply chain. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        }
+      ]
+    },
+    {
+      "id": "agriculture-agribusiness",
+      "cat": "industrial-realestate-logistics",
+      "icon": "🌾",
+      "name": "Agriculture & Agri-Business",
+      "one": "Farm-to-market businesses needing supply chain, digital reach and export support.",
+      "intro": "Agri-businesses increasingly need digital storefronts, export documentation and cold-chain logistics support alongside the farming itself. We support the commercial layer around production.",
+      "sectors": [
+        "logistics",
+        "digital-marketing",
+        "it-infrastructure",
+        "finance-audit"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "logistics",
+          "text": "Materials, supplies and inventory need to move reliably in agriculture & agri-business operations. We coordinate the freight, warehousing and distribution behind that."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in agriculture & agri-business as much as anywhere else. We run the social, SEO, ads and content that get the right agriculture & agri-business audience finding and choosing you."
+        },
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every agriculture & agri-business operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep agriculture & agri-business work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including agriculture & agri-business businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        }
+      ]
+    },
+    {
+      "id": "energy-utilities",
+      "cat": "industrial-realestate-logistics",
+      "icon": "⚡",
+      "name": "Energy & Utilities",
+      "one": "Power, solar and utility providers needing field systems and workforce support.",
+      "intro": "Energy and utility providers run on field operations and long-term infrastructure — we support the software, hiring and compliance layers that keep those operations accountable.",
+      "sectors": [
+        "it-infrastructure",
+        "hr-services",
+        "finance-audit",
+        "sales-support"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every energy & utilities operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep energy & utilities work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in energy & utilities. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including energy & utilities businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        },
+        {
+          "sectorId": "sales-support",
+          "text": "Energy & Utilities runs on equipment and infrastructure as much as people. We supply, install and maintain the hardware, networks and support desk behind the scenes."
+        }
+      ]
+    },
+    {
+      "id": "bfsi",
+      "cat": "financial-professional",
+      "icon": "🏦",
+      "name": "Banking, Financial Services & Insurance",
+      "one": "Institutions and professionals needing compliance, training and finance support.",
+      "intro": "BFSI runs on trust, compliance and trained staff. We support structured staff training, digital platforms, and the marketing that builds credibility with customers.",
+      "sectors": [
+        "edtech",
+        "it-infrastructure",
+        "finance-audit",
+        "digital-marketing",
+        "hr-services"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "edtech",
+          "text": "Your people are the real asset in banking, financial services & insurance. Our EdTech division can design structured training, certification or onboarding programs to keep banking, financial services & insurance teams sharp and job-ready."
+        },
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every banking, financial services & insurance operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep banking, financial services & insurance work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including banking, financial services & insurance businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in banking, financial services & insurance as much as anywhere else. We run the social, SEO, ads and content that get the right banking, financial services & insurance audience finding and choosing you."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in banking, financial services & insurance. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        }
+      ]
+    },
+    {
+      "id": "legal-professional-services",
+      "cat": "financial-professional",
+      "icon": "⚖️",
+      "name": "Legal & Professional Services",
+      "one": "Law firms and consultancies needing a credible digital presence and back-office support.",
+      "intro": "Professional credibility starts with a polished web presence and ends with clean books — we support both ends, plus the HR and hiring in between.",
+      "sectors": [
+        "it-infrastructure",
+        "digital-marketing",
+        "finance-audit",
+        "hr-services"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every legal & professional services operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep legal & professional services work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in legal & professional services as much as anywhere else. We run the social, SEO, ads and content that get the right legal & professional services audience finding and choosing you."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including legal & professional services businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in legal & professional services. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        }
+      ]
+    },
+    {
+      "id": "consulting-advisory",
+      "cat": "financial-professional",
+      "icon": "📊",
+      "name": "Consulting & Advisory",
+      "one": "Advisory firms needing content, brand authority and lean operational support.",
+      "intro": "Advisory businesses sell expertise — content and thought leadership are the marketing. We support the content engine, the web presence, and the back-office work advisors don't have time for.",
+      "sectors": [
+        "digital-marketing",
+        "media-production",
+        "it-infrastructure",
+        "finance-audit"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in consulting & advisory as much as anywhere else. We run the social, SEO, ads and content that get the right consulting & advisory audience finding and choosing you."
+        },
+        {
+          "sectorId": "media-production",
+          "text": "First impressions matter in consulting & advisory too. Our production team handles the photography, video and brand content that make a consulting & advisory business look as good as it performs."
+        },
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every consulting & advisory operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep consulting & advisory work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including consulting & advisory businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        }
+      ]
+    },
+    {
+      "id": "media-entertainment",
+      "cat": "creative-media-emerging",
+      "icon": "🎬",
+      "name": "Media & Entertainment",
+      "one": "Production houses, influencers and brands producing film, series and content.",
+      "intro": "Production is our own vertical too, so we can co-produce, or simply support the marketing, platform and finance layer around your content business.",
+      "sectors": [
+        "media-production",
+        "digital-marketing",
+        "it-infrastructure",
+        "finance-audit"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "media-production",
+          "text": "First impressions matter in media & entertainment too. Our production team handles the photography, video and brand content that make a media & entertainment business look as good as it performs."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in media & entertainment as much as anywhere else. We run the social, SEO, ads and content that get the right media & entertainment audience finding and choosing you."
+        },
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every media & entertainment operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep media & entertainment work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including media & entertainment businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        }
+      ]
+    },
+    {
+      "id": "sports-fitness",
+      "cat": "creative-media-emerging",
+      "icon": "🏋️",
+      "name": "Sports & Fitness",
+      "one": "Gyms, academies and sports brands needing bookings, content and community growth.",
+      "intro": "Fitness and sports brands grow on visible community proof. We shoot the content, run the campaigns, and build the booking systems that keep members coming back.",
+      "sectors": [
+        "media-production",
+        "digital-marketing",
+        "it-infrastructure",
+        "hr-services"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "media-production",
+          "text": "First impressions matter in sports & fitness too. Our production team handles the photography, video and brand content that make a sports & fitness business look as good as it performs."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in sports & fitness as much as anywhere else. We run the social, SEO, ads and content that get the right sports & fitness audience finding and choosing you."
+        },
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every sports & fitness operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep sports & fitness work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in sports & fitness. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        }
+      ]
+    },
+    {
+      "id": "travel-tourism",
+      "cat": "creative-media-emerging",
+      "icon": "✈️",
+      "name": "Travel & Tourism",
+      "one": "Travel operators and hospitality brands needing bookings, content and campaigns.",
+      "intro": "Travel sells on inspiration and ease of booking. We produce the visual content, run the campaigns, and build the booking systems that turn browsing into confirmed trips.",
+      "sectors": [
+        "media-production",
+        "digital-marketing",
+        "it-infrastructure",
+        "logistics"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "media-production",
+          "text": "First impressions matter in travel & tourism too. Our production team handles the photography, video and brand content that make a travel & tourism business look as good as it performs."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in travel & tourism as much as anywhere else. We run the social, SEO, ads and content that get the right travel & tourism audience finding and choosing you."
+        },
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every travel & tourism operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep travel & tourism work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "logistics",
+          "text": "Materials, supplies and inventory need to move reliably in travel & tourism operations. We coordinate the freight, warehousing and distribution behind that."
+        }
+      ]
+    },
+    {
+      "id": "aviation-aerospace",
+      "cat": "creative-media-emerging",
+      "icon": "🛩️",
+      "name": "Aviation & Aerospace",
+      "one": "Aviation businesses and MRO providers needing systems, training and compliance support.",
+      "intro": "Aviation runs on precise documentation, trained staff and reliable systems. We support structured training, compliance paperwork and the digital systems around ground operations.",
+      "sectors": [
+        "edtech",
+        "it-infrastructure",
+        "hr-services",
+        "finance-audit"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "edtech",
+          "text": "Your people are the real asset in aviation & aerospace. Our EdTech division can design structured training, certification or onboarding programs to keep aviation & aerospace teams sharp and job-ready."
+        },
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every aviation & aerospace operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep aviation & aerospace work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in aviation & aerospace. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        },
+        {
+          "sectorId": "finance-audit",
+          "text": "Compliance and clean books don't pause for anyone, including aviation & aerospace businesses. We keep your accounts, tax filings and audit trail in order year-round."
+        }
+      ]
+    },
+    {
+      "id": "gaming-esports",
+      "cat": "creative-media-emerging",
+      "icon": "🎮",
+      "name": "Gaming & Esports",
+      "one": "Studios, esports orgs and creators needing platforms, production and growth marketing.",
+      "intro": "Gaming and esports move fast on community and content. We support platform builds, production for streams and highlight content, and the marketing that grows an audience.",
+      "sectors": [
+        "it-infrastructure",
+        "media-production",
+        "digital-marketing",
+        "hr-services"
+      ],
+      "howWeHelp": [
+        {
+          "sectorId": "it-infrastructure",
+          "text": "Every gaming & esports operation runs on some kind of digital system. We build and maintain the websites, apps, dashboards and automations that keep gaming & esports work running smoothly — without you needing an in-house tech team."
+        },
+        {
+          "sectorId": "media-production",
+          "text": "First impressions matter in gaming & esports too. Our production team handles the photography, video and brand content that make a gaming & esports business look as good as it performs."
+        },
+        {
+          "sectorId": "digital-marketing",
+          "text": "Visibility drives trust in gaming & esports as much as anywhere else. We run the social, SEO, ads and content that get the right gaming & esports audience finding and choosing you."
+        },
+        {
+          "sectorId": "hr-services",
+          "text": "Hiring and retaining the right people is a constant challenge in gaming & esports. We support resourcing, documentation, payroll and onboarding so your HR load is lighter."
+        }
+      ]
+    }
+  ]
+}
