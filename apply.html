@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Apply Now | AvenMinds Careers</title>
+<meta name="description" content="Submit your job application to AvenMinds in a few guided steps.">
+<link rel="icon" href="assets/images/logo.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="brand">
+        <img src="assets/images/logo.svg" alt="AvenMinds logo">
+        <span class="brand-text">
+          <span class="brand-name">AvenMinds</span>
+          <span class="brand-tag"><span class="hot">THE NEXT-GEN</span> <span class="cold">TRANSFORMATION PARTNER</span></span>
+        </span>
+      </a>
+      <nav class="main-nav">
+        <ul>
+          <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="careers.html" class="nav-link active">Careers</a></li>
+        </ul>
+      </nav>
+      <div class="header-cta">
+        <button class="menu-toggle" aria-label="Toggle menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <section class="page-hero" style="padding:34px 0;">
+    <div class="container">
+      <p class="breadcrumb"><a href="index.html">Home</a> / <a href="careers.html">Careers</a> / <span id="crumbJob">Apply</span></p>
+      <span class="eyebrow" style="color:#fff;" id="applyingForLabel">Application</span>
+      <h1 id="jobTitleHeading" style="font-size:1.5rem;">Apply for this role</h1>
+    </div>
+  </section>
+
+  <section style="padding:34px 0 80px;">
+    <div class="container apply-shell">
+
+      <div class="stepper" id="stepper">
+        <div class="step-item active" data-step="1">
+          <div class="step-dot">1</div><div class="step-label">Personal &amp; Education</div>
+        </div>
+        <div class="step-item" data-step="2">
+          <div class="step-dot">2</div><div class="step-label">Company Questions</div>
+        </div>
+        <div class="step-item" data-step="3">
+          <div class="step-dot">3</div><div class="step-label">Terms &amp; Conditions</div>
+        </div>
+        <div class="step-item" data-step="4">
+          <div class="step-dot">4</div><div class="step-label">Review &amp; Submit</div>
+        </div>
+      </div>
+
+      <form id="applyForm" novalidate>
+        <input type="hidden" name="_subject" value="New Job Application — AvenMinds Careers">
+        <input type="hidden" name="Position Applied For" id="applyRoleInput" value="">
+        <input type="hidden" name="Job ID" id="applyJobIdInput" value="">
+
+        <!-- STEP 1: Personal & Education -->
+        <div class="wizard-panel step-panel" data-panel="1">
+          <h2>Personal Details</h2>
+          <p class="step-desc">Tell us a bit about yourself. Fields marked * are mandatory.</p>
+
+          <div class="form-row-2">
+            <div class="form-field" data-field="First Name">
+              <label for="fFirstName">First Name *</label>
+              <input type="text" id="fFirstName" name="First Name" required>
+              <div class="field-error">Please enter your first name.</div>
+            </div>
+            <div class="form-field" data-field="Last Name">
+              <label for="fLastName">Last Name *</label>
+              <input type="text" id="fLastName" name="Last Name" required>
+              <div class="field-error">Please enter your last name.</div>
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-field" data-field="Contact Number">
+              <label for="fPhone">Contact Number *</label>
+              <input type="tel" id="fPhone" name="Contact Number" required>
+              <div class="field-error">Please enter a valid contact number.</div>
+            </div>
+            <div class="form-field" data-field="Email">
+              <label for="fEmail">Email Address *</label>
+              <input type="email" id="fEmail" name="Email" required>
+              <div class="field-error">Please enter a valid email address.</div>
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-field" data-field="LinkedIn Profile">
+              <label for="fLinkedIn">LinkedIn Profile <span class="hint">(optional)</span></label>
+              <input type="url" id="fLinkedIn" name="LinkedIn Profile" placeholder="https://linkedin.com/in/...">
+            </div>
+            <div class="form-field" data-field="Gender">
+              <label for="fGender">Gender</label>
+              <select id="fGender" name="Gender">
+                <option value="">Select</option>
+                <option>Female</option>
+                <option>Male</option>
+                <option>Non-binary</option>
+                <option>Prefer not to say</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-field" data-field="Citizen of India">
+              <label for="fCitizen">Are you a citizen of the country you're applying in? *</label>
+              <select id="fCitizen" name="Citizen of Country" required>
+                <option value="">Select</option>
+                <option>Yes</option>
+                <option>No</option>
+              </select>
+              <div class="field-error">Please select an option.</div>
+            </div>
+            <div class="form-field" data-field="Current Location">
+              <label for="fCurrentLocation">Current Location *</label>
+              <input type="text" id="fCurrentLocation" name="Current Location" placeholder="City, State" required>
+              <div class="field-error">Please enter your current location.</div>
+            </div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-field" data-field="Resume">
+              <label for="fResume">Upload Resume * <span class="hint">(PDF/DOC, max 5MB)</span></label>
+              <input type="file" id="fResume" name="Resume" accept=".pdf,.doc,.docx" required>
+              <div class="field-error">Please attach your resume.</div>
+            </div>
+            <div class="form-field" data-field="Portfolio">
+              <label for="fPortfolio">Portfolio Link <span class="hint">(optional)</span></label>
+              <input type="url" id="fPortfolio" name="Portfolio Link" placeholder="https://">
+            </div>
+          </div>
+
+          <div class="form-field" data-field="How did you hear about us">
+            <label for="fSource">How did you hear about us? *</label>
+            <select id="fSource" name="How Did You Hear About Us" required>
+              <option value="">Select</option>
+              <option>LinkedIn</option>
+              <option>Naukri</option>
+              <option>Indeed</option>
+              <option>Employee Referral</option>
+              <option>AvenMinds Website</option>
+              <option>Instagram / Social Media</option>
+              <option>Campus Placement</option>
+              <option>Other</option>
+            </select>
+            <div class="field-error">Please select an option.</div>
+          </div>
+
+          <div class="wizard-section-title">Education History</div>
+          <p class="step-desc" style="margin-top:-6px;">Add at least one qualification. You can add up to 5.</p>
+          <div id="eduContainer"></div>
+          <button type="button" class="add-edu-btn" id="addEduBtn">+ Add Another Qualification</button>
+
+          <div class="wizard-actions">
+            <span></span>
+            <button type="button" class="btn btn-primary" data-next="2">Next: Company Questions</button>
+          </div>
+        </div>
+
+        <!-- STEP 2: Company Questions -->
+        <div class="wizard-panel step-panel" data-panel="2" style="display:none;">
+          <h2>Company Questions</h2>
+          <p class="step-desc">A few quick questions that help our HR team process your application faster.</p>
+
+          <div class="form-field" data-field="Work Authorization">
+            <label>Are you authorized to work in the location applied for? *</label>
+            <div class="radio-row">
+              <label class="radio-opt"><input type="radio" name="Work Authorization" value="Yes" required> Yes</label>
+              <label class="radio-opt"><input type="radio" name="Work Authorization" value="No"> No</label>
+            </div>
+            <div class="field-error">Please select an option.</div>
+          </div>
+
+          <div class="form-field" data-field="Disability">
+            <label>Do you have any disability that requires workplace accommodation? *</label>
+            <div class="radio-row">
+              <label class="radio-opt"><input type="radio" name="Disability" value="Yes" required> Yes</label>
+              <label class="radio-opt"><input type="radio" name="Disability" value="No"> No</label>
+              <label class="radio-opt"><input type="radio" name="Disability" value="Prefer not to say"> Prefer not to say</label>
+            </div>
+            <div class="field-error">Please select an option.</div>
+          </div>
+
+          <div class="form-field" data-field="Passport">
+            <label>Do you hold a valid passport? *</label>
+            <div class="radio-row">
+              <label class="radio-opt"><input type="radio" name="Passport" value="Yes" required> Yes</label>
+              <label class="radio-opt"><input type="radio" name="Passport" value="No"> No</label>
+            </div>
+            <div class="field-error">Please select an option.</div>
+          </div>
+
+          <div class="form-field" data-field="Company Terms Compliance">
+            <label>Do you agree to comply with AvenMinds' company policies, code of conduct and applicable norms if hired? *</label>
+            <div class="radio-row">
+              <label class="radio-opt"><input type="radio" name="Company Terms Compliance" value="Yes" required> Yes</label>
+              <label class="radio-opt"><input type="radio" name="Company Terms Compliance" value="No"> No</label>
+            </div>
+            <div class="field-error">Please select an option.</div>
+          </div>
+
+          <div class="form-field" data-field="Currently Employed">
+            <label>Are you currently employed? *</label>
+            <div class="radio-row">
+              <label class="radio-opt"><input type="radio" name="Currently Employed" value="Yes" required> Yes</label>
+              <label class="radio-opt"><input type="radio" name="Currently Employed" value="No"> No</label>
+            </div>
+            <div class="field-error">Please select an option.</div>
+          </div>
+
+          <div class="form-row-2">
+            <div class="form-field" data-field="Notice Period">
+              <label for="fNotice">Notice Period / Earliest Joining Date *</label>
+              <input type="text" id="fNotice" name="Notice Period" placeholder="e.g. Immediate, 30 days" required>
+              <div class="field-error">Please enter your notice period.</div>
+            </div>
+            <div class="form-field" data-field="Expected CTC">
+              <label for="fCTC">Expected CTC / Salary <span class="hint">(optional)</span></label>
+              <input type="text" id="fCTC" name="Expected CTC">
+            </div>
+          </div>
+
+          <div class="form-field" data-field="Willing to Relocate">
+            <label>Are you willing to relocate if required for this role? *</label>
+            <div class="radio-row">
+              <label class="radio-opt"><input type="radio" name="Willing to Relocate" value="Yes" required> Yes</label>
+              <label class="radio-opt"><input type="radio" name="Willing to Relocate" value="No"> No</label>
+              <label class="radio-opt"><input type="radio" name="Willing to Relocate" value="Depends on location"> Depends on location</label>
+            </div>
+            <div class="field-error">Please select an option.</div>
+          </div>
+
+          <div class="form-field" data-field="Previously Applied">
+            <label>Have you previously applied to or worked at AvenMinds? *</label>
+            <div class="radio-row">
+              <label class="radio-opt"><input type="radio" name="Previously Applied" value="Yes" required> Yes</label>
+              <label class="radio-opt"><input type="radio" name="Previously Applied" value="No"> No</label>
+            </div>
+            <div class="field-error">Please select an option.</div>
+          </div>
+
+          <div class="wizard-actions">
+            <button type="button" class="btn btn-ghost" data-prev="1">Back</button>
+            <button type="button" class="btn btn-primary" data-next="3">Next: Terms &amp; Conditions</button>
+          </div>
+        </div>
+
+        <!-- STEP 3: Terms & Conditions -->
+        <div class="wizard-panel step-panel" data-panel="3" style="display:none;">
+          <h2>Terms &amp; Conditions</h2>
+          <p class="step-desc">Please review the points below before proceeding to submit your application.</p>
+
+          <div class="terms-box">
+            <h5>1. Accuracy of Information</h5>
+            <ul>
+              <li>All details provided in this application are true, complete and accurate to the best of your knowledge.</li>
+              <li>AvenMinds reserves the right to reject an application or terminate an offer if any information is later found to be false or misleading.</li>
+            </ul>
+            <h5>2. Data Usage &amp; Privacy</h5>
+            <ul>
+              <li>Information submitted, including your resume and contact details, will be used solely for recruitment and hiring evaluation purposes.</li>
+              <li>Your data may be shared internally with relevant hiring managers and retained for future, related openings unless you request otherwise.</li>
+            </ul>
+            <h5>3. Equal Opportunity</h5>
+            <ul>
+              <li>AvenMinds is an equal-opportunity employer and evaluates every application purely on merit, skills and role fit.</li>
+            </ul>
+            <h5>4. Selection Process</h5>
+            <ul>
+              <li>Submitting this application does not guarantee an interview or offer of employment.</li>
+              <li>The recruitment team will contact shortlisted candidates directly using the details provided above.</li>
+            </ul>
+            <h5>5. Communication</h5>
+            <ul>
+              <li>You consent to being contacted via phone, email or WhatsApp regarding this and other relevant openings at AvenMinds.</li>
+            </ul>
+          </div>
+
+          <div class="terms-agree">
+            <input type="checkbox" id="fTermsAgree" name="Terms Agreed" value="Yes" required>
+            <label for="fTermsAgree">I have read and agree to the AvenMinds Terms &amp; Conditions and Privacy Policy stated above. *</label>
+          </div>
+          <div class="field-error" id="termsError" style="display:none;">You must accept the Terms &amp; Conditions to continue.</div>
+
+          <div class="wizard-actions">
+            <button type="button" class="btn btn-ghost" data-prev="2">Back</button>
+            <button type="button" class="btn btn-primary" id="toReviewBtn">Next: Review Application</button>
+          </div>
+        </div>
+
+        <!-- STEP 4: Review & Submit -->
+        <div class="wizard-panel step-panel" data-panel="4" style="display:none;">
+          <h2>Review Your Application</h2>
+          <p class="step-desc">Double-check your details below. You can go back to edit any section before submitting.</p>
+
+          <div id="reviewContent"></div>
+
+          <div class="wizard-actions">
+            <button type="button" class="btn btn-ghost" data-prev="3">Back</button>
+            <button type="submit" class="btn btn-primary" id="finalSubmitBtn">Submit Application</button>
+          </div>
+          <div class="submit-error" id="submitError">Something went wrong submitting your application. Please try again, or email your resume directly to info@avenminds.com.</div>
+        </div>
+
+        <!-- SUCCESS PANEL -->
+        <div class="wizard-panel step-panel" data-panel="success" style="display:none;">
+          <div class="success-screen">
+            <div class="success-icon">✓</div>
+            <h2>Application Completed!</h2>
+            <div class="app-ref" id="appRefId"></div>
+            <p>Thank you for applying to AvenMinds. Our recruitment team will review your profile and contact you for further steps.</p>
+            <a href="careers.html" class="btn btn-navy">Browse More Roles</a>
+          </div>
+        </div>
+
+      </form>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="margin-top:0;border-top:none;padding-top:0;">
+        <p>© <span id="year"></span> AvenMinds. All rights reserved.</p>
+        <p><a href="mailto:info@avenminds.com">info@avenminds.com</a> · +91 82488 02124</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+  <script src="js/apply.js"></script>
+</body>
+</html>

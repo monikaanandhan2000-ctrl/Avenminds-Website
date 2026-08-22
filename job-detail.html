@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Careers — 1000+ Open Roles | AvenMinds</title>
-<meta name="description" content="Explore 1000+ open roles at AvenMinds across IT, finance, teaching, marketing, HR, media, real estate and logistics. Search, filter and apply online.">
+<title id="pageTitle">Job Details | AvenMinds Careers</title>
+<meta name="description" content="View full job description, responsibilities, requirements and apply online at AvenMinds.">
 <link rel="icon" href="assets/images/logo.svg">
 <link rel="stylesheet" href="css/style.css">
 </head>
@@ -39,101 +39,88 @@
     </div>
   </header>
 
-  <section class="page-hero">
+  <section class="page-hero" style="padding:34px 0;">
     <div class="container">
-      <p class="breadcrumb"><a href="index.html">Home</a> / Careers</p>
-      <span class="eyebrow" style="color:#fff;">Careers at AvenMinds</span>
-      <h1 id="heroCount">1000+ open roles across every industry we touch.</h1>
-      <p class="lede">Search by title, filter by location, domain or experience, and apply directly — no account required.</p>
+      <p class="breadcrumb breadcrumb-detail"><a href="index.html">Home</a> / <a href="careers.html">Careers</a> / <span id="crumbTitle">Job</span></p>
     </div>
   </section>
-
-  <div class="container">
-    <div class="search-shell" id="searchShell">
-      <div class="search-field">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-        <input type="text" id="searchInput" placeholder="Search job title, skill or keyword — e.g. &quot;React Developer&quot;, &quot;GST&quot;, &quot;HR&quot;">
-      </div>
-      <select id="quickLocation">
-        <option value="">All Locations</option>
-      </select>
-      <select id="quickSort">
-        <option value="relevance">Sort: Relevance</option>
-        <option value="newest">Sort: Newest First</option>
-        <option value="title-az">Sort: Title A–Z</option>
-      </select>
-      <button class="btn btn-navy" id="searchBtn">Search</button>
-    </div>
-  </div>
 
   <section style="padding:34px 0 70px;">
     <div class="container">
-      <div class="careers-layout">
+      <div id="jobDetailRoot">
+        <div class="skeleton" style="height:220px;margin-bottom:20px;"></div>
+      </div>
+    </div>
+  </section>
 
-        <aside class="filters-panel" id="filtersPanel">
-          <div class="filters-head">
-            <h3>Filters</h3>
-            <button class="filters-reset" id="resetFilters">Reset all</button>
+  <!-- Refer a Candidate Modal -->
+  <div class="modal-overlay" id="referModal">
+    <div class="modal" style="position:relative;">
+      <button class="modal-close" id="referModalClose" aria-label="Close">✕</button>
+      <span class="eyebrow">Refer a Candidate</span>
+      <h2 id="referRoleTitle" style="margin-bottom:6px;">Refer someone for this role</h2>
+      <p class="lede" style="margin-bottom:26px; color:#64748b;">Know someone who'd be perfect for this role? Share their details and our team will take it from there.</p>
+      <form id="referForm">
+        <input type="hidden" name="_subject" value="New Candidate Referral — AvenMinds Careers">
+        <input type="hidden" name="Position" id="referRoleInput" value="">
+        <div class="form-row-2">
+          <div class="form-field">
+            <label for="refCandName">Candidate Name *</label>
+            <input type="text" id="refCandName" name="Candidate Name" required>
           </div>
-
-          <div class="filter-group">
-            <div class="filter-group-title">Domain / Industry</div>
-            <div class="filter-options" id="filterCategory"></div>
+          <div class="form-field">
+            <label for="refCandEmail">Candidate Email *</label>
+            <input type="email" id="refCandEmail" name="Candidate Email" required>
           </div>
-
-          <div class="filter-group">
-            <div class="filter-group-title">Location</div>
-            <div class="filter-options" id="filterLocation"></div>
-          </div>
-
-          <div class="filter-group">
-            <div class="filter-group-title">Work Mode</div>
-            <div class="filter-options" id="filterMode"></div>
-          </div>
-
-          <div class="filter-group">
-            <div class="filter-group-title">Experience Level</div>
-            <div class="filter-options" id="filterExperience"></div>
-          </div>
-
-          <div class="filter-group">
-            <div class="filter-group-title">Employment Type</div>
-            <div class="filter-options" id="filterEmployment"></div>
-          </div>
-        </aside>
-
-        <div class="results-col">
-          <div class="filter-bar" id="filterBar">
-            <button class="filter-btn active" data-filter="all">All Roles</button>
-          </div>
-
-          <div class="results-bar">
-            <p class="job-count" id="jobCount">Loading roles…</p>
-            <div class="active-chips" id="activeChips"></div>
-          </div>
-
-          <div class="job-grid" id="jobList">
-            <div class="skeleton" style="height:88px;margin-bottom:12px;"></div>
-            <div class="skeleton" style="height:88px;margin-bottom:12px;"></div>
-            <div class="skeleton" style="height:88px;margin-bottom:12px;"></div>
-          </div>
-
-          <div class="pagination" id="pagination"></div>
         </div>
-
+        <div class="form-row-2">
+          <div class="form-field">
+            <label for="refCandPhone">Candidate Contact Number *</label>
+            <input type="tel" id="refCandPhone" name="Candidate Contact" required>
+          </div>
+          <div class="form-field">
+            <label for="refCandLocation">Candidate Current Location</label>
+            <input type="text" id="refCandLocation" name="Candidate Location">
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="refCandResume">Candidate Resume Link <span class="hint">(Google Drive / Dropbox link)</span></label>
+          <input type="url" id="refCandResume" name="Candidate Resume Link" placeholder="https://">
+        </div>
+        <div class="form-field">
+          <label for="refCandPortfolio">Candidate Portfolio / LinkedIn Link</label>
+          <input type="url" id="refCandPortfolio" name="Candidate Portfolio Link" placeholder="https://">
+        </div>
+        <div class="form-row-2">
+          <div class="form-field">
+            <label for="refYourName">Your Name *</label>
+            <input type="text" id="refYourName" name="Referred By" required>
+          </div>
+          <div class="form-field">
+            <label for="refYourEmail">Your Email *</label>
+            <input type="email" id="refYourEmail" name="Referrer Email" required>
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="refRelation">Your Relationship to the Candidate</label>
+          <input type="text" id="refRelation" name="Relationship" placeholder="e.g. Former colleague, Friend, Classmate">
+        </div>
+        <div class="form-field">
+          <label for="refNotes">Additional Notes</label>
+          <textarea id="refNotes" name="Additional Notes" rows="3" placeholder="Why do you think they're a great fit?"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block" id="referSubmitBtn">Submit Referral</button>
+        <p class="form-note">Your referral is sent directly to our HR team at info@avenminds.com.</p>
+        <div class="submit-error" id="referError">Something went wrong sending your referral. Please try again or email info@avenminds.com directly.</div>
+      </form>
+      <div id="referSuccess" style="display:none;" class="success-screen">
+        <div class="success-icon">✓</div>
+        <h2>Referral Submitted!</h2>
+        <p>Thanks for the referral — our recruitment team will review the profile and reach out if it's a good fit.</p>
+        <button class="btn btn-navy" id="referSuccessClose">Close</button>
       </div>
     </div>
-  </section>
-
-  <section class="section-bone">
-    <div class="container">
-      <div class="cta-band">
-        <span class="eyebrow" style="color:#fff;">Don't See Your Role?</span>
-        <h2 style="color:#fff; max-width:600px; margin-left:auto; margin-right:auto;">We're always open to meeting good people.</h2>
-        <p class="lede" style="color:rgba(255,255,255,.75); margin:14px auto 0;">Send your resume to <a href="mailto:info@avenminds.com" style="color:#fff; text-decoration:underline;">info@avenminds.com</a> and we'll reach out when a fitting role opens, or refer someone you know using any job's "Refer a Candidate" option.</p>
-      </div>
-    </div>
-  </section>
+  </div>
 
   <footer class="site-footer">
     <div class="container">
@@ -195,6 +182,6 @@
   </footer>
 
   <script src="js/main.js"></script>
-  <script src="js/careers.js"></script>
+  <script src="js/job-detail.js"></script>
 </body>
 </html>
